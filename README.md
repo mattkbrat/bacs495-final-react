@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# BACS495-FINAL (NODE SECTION)
+
+This repository hosts the node files for my BACS495 final.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
