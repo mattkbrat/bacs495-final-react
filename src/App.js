@@ -8,6 +8,8 @@ function App() {
   return (
     <div className="App">
       <MyHeader about={aboutMe}/>
+        <body>
+        </body>
       <MyFooter myName={aboutMe.name} />
     </div>
   );

@@ -1,17 +1,15 @@
 
-export default function MyHeader(props){
+export default function MyHeader(){
         return (
             <div>
             <header className="App-header">
-                <a
-                    className="App-link"
-                    href={props.about.linkedIn}
-                    target="_blank"
+                <a className="heart" target="_self"
+                    href='/'
                     rel="noopener noreferrer"
                 >
-                    🏫 bacs495-029
+                    🏫
                 </a>
-                <input type="search"/>
+                <input type="text" placeholder="🔍 Search..." name="search"/>
             </header>
             </div>
         );

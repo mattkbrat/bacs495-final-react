@@ -1,13 +1,18 @@
 
-export default function MyFooter(props) {
-    const myName = props.myName
-        return (
-            <div>
-                <h2 className="App-footer">
+export default function MyFooter() {
+    return (
+        <div>
+            <footer className="App-footer">
+                <div className="flexcon">
                     <p>
-                        Hello, {myName}
+                        Made with
                     </p>
-                </h2>
-            </div>
-        );
-    }
+                    <p className="heart"> ❤ </p>
+                    <p>
+                        by <a href="https://github.com/mattkbrat/" rel="noopener" target="_blank">Matt</a>
+                    </p>
+                </div>
+            </footer>
+        </div>
+    );
+}
