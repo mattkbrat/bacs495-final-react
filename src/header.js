@@ -9,7 +9,10 @@ export default function MyHeader(){
                 >
                     🏫
                 </a>
-                <input type="text" placeholder="🔍 Search..." name="search"/>
+                <p>Bootstrap</p>
+                <input type="text" placeholder="Search..." name="search"/>
+                <a className="custom-button" href="/">Log In </a>
+                <a className="custom-button call" href="/">Sign Up</a>
             </header>
             </div>
         );
